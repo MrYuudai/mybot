@@ -18,20 +18,20 @@ bot.on('ready', () => {
 });
 //команда, и то, что она должна выполнить
 bot.on('message', msg => {
-    if (msg.content === prefix + 'ты тут') {
-        msg.reply('дя я тут');
+    if (msg.content === prefix + 'Ты тут?') {
+        msg.reply('Да я тут');
     }
 });
 
 bot.on('message', msg => {
     if (msg.content === prefix + 'Rem') {
-        msg.reply('Я тут!');
+        msg.reply('Да сенпай!');
     }
 });
 
 bot.on('message', msg => {
     if (msg.content === prefix + 'Сюда') {
-        msg.reply('Ок');
+        msg.reply('Хорошо сенпай');
     }
 });
 
@@ -51,4 +51,4 @@ bot.on('message', msg => {
     }
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(token);
