@@ -18,13 +18,13 @@ bot.on('ready', () => {
 });
 //команда, и то, что она должна выполнить
 bot.on('message', msg => {
-    if (msg.content === prefix + 'habr') {
-        msg.reply('The Best!');
+    if (msg.content === prefix + 'ты тут') {
+        msg.reply('дя я тут');
     }
 });
 
 bot.on('message', msg => {
-    if (msg.content === prefix + 'monor') {
+    if (msg.content === prefix + 'Rem') {
         msg.reply('Я тут!');
     }
 });
