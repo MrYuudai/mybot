@@ -18,20 +18,20 @@ bot.on('ready', () => {
 });
 //команда, и то, что она должна выполнить
 bot.on('message', msg => {
-    if (msg.content === prefix + 'Rem') {
-        msg.reply('Да что тебе семпай?');
+    if (msg.content === prefix + 'habr') {
+        msg.reply('The Best!');
     }
 });
 
 bot.on('message', msg => {
-    if (msg.content === prefix + 'Rem кто ты?') {
-        msg.reply('Я Бот который зделон для вас?');
+    if (msg.content === prefix + 'monor') {
+        msg.reply('Я тут!');
     }
 });
 
 bot.on('message', msg => {
-    if (msg.content === prefix + 'Команды') {
-        msg.reply(' ``` - !Rem, !Rem кто ты. ``` ');
+    if (msg.content === prefix + 'Сюда') {
+        msg.reply('Ок');
     }
 });
 
